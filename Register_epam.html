@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Epam Assignment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" media="screen" href="" />
+</head>
+<body><center><div class="container">
+                        <form action="#" method="POST">
+                            <div class="form-group">
+                            <h2>Sign Up</h2>
+                            <label for="name">
+                                <input type="text" class="form-control" name="name" placeholder="Name" required="true" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$">
+                            </label><br>
+                            <label for="email">
+                                <input type="text" class="form-control" name="email" placeholder="email" required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+                            </label><br>
+                            <label for="password">
+                                <input type="password" class="form-control" name="password" placeholder="Password" required="true" pattern="{6, }">
+                            </label><br>
+                            <label for="contact">
+                                <input type="contact" class="form-control" name="contact" placeholder="Contact" required="true" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+                            </label><br>
+                            <label for="city">
+                                <input type="text" class="form-control" name="city" placeholder="City" required="true" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$">
+                            </label><br>
+                            <label for="address">
+                                <input type="text" class="form-control" name="address" placeholder="Address" required="true" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$">
+                            </label><br>
+                            <script src="epam.js"></script>
+                            <button type="submit" class="btn btn-primary" onclick="submit_success()" >Submit</button>
+                        </form></div></center>
+</body>
+</html>
